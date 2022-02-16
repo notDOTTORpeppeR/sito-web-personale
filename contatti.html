@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Untitled-2.css">
+    </head>
+
+
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="chi sono.html">Chi sono</a>
+        <a href="contatti.html">Contatti</a>
+        
+        
+        
+      </div>
+      <div class="container">
+        <alt="Snow" style="width:100%;">
+        <div id="contatti" class="top-right"><h1>Social<br></h1></div>
+        <body id="sfondo" background="sfondo1.gif"></body>
+        <div id="descrizione_contatti" class="top-right"><h1><br><br>Non esitare a contattarmi, per farlo compila il modulo qui sotto o usa tutti i miei Social<br><br>
+          <a href="https://www.instagram.com/giuseppe_diomede/">INSTAGRAM</a><br>
+          <a href="https://www.facebook.com/giuseppe.diomede.752/">FACEBOOK</a><br>
+          <a href="https://discord.gg/eSQcJChPnW">DISCORD</a><br></h1></div>
+        
+        <div id="modulo_contatti"> <form id="form_01" class="ekw_contact_form" action="#form_01" target="_self" method="post" novalidate>
+          <!-- Nome -->
+          <div class="ekw_input_container">
+            <span class="material-icons">Nome</span>
+            <input type="text" name="ekw_name" id="ekw_name" value="">
+          </div>
+
+           <!-- Cognome -->
+           <div class="ekw_input_container">
+            <span class="material-icons">Cognome</span>
+            <input type="text" name="ekw_name" id="ekw_name" value="" >
+          </div>
+          
+          <!-- email -->
+          <div class="ekw_input_container">
+            <span class="material-icons">E-mail</span>
+            <input type="text" name="ekw_mail" id="ekw_mail" value="">
+          </div>
+          
+          <!-- Telefono -->
+          <div class="ekw_input_container">
+            <span class="material-icons">N.Telefonico</span>
+            <input type="text" name="ekw_tel" id="ekw_tel" value="">
+          </div>
+          
+          <!-- Messaggio -->
+          <div class="ekw_input_container">
+            <span class="material-icons">Messaggio</span>
+            <textarea name="ekw_text" id="ekw_text" rows="5" cols="80" required></textarea>
+          </div>
+      
+          <!-- checkbox per la privacy (già spuntato) -->
+          <div>
+            <input type="checkbox" name="ekw_contact_privacy" id="ekw_contact_privacy" checked required>
+            <label style="font-size: 12px;" for="ekw_contact_privacy">Ho letto la vostra <a title="Privacy e policy di Eureka web" href="https://www.agenziawebeureka.it/privacy-policy/" target="_blank">Informativa privacy</a> e acconsento Al trattamento dei miei dati personali per l’erogazione del servizio richiesto.</label><br>
+          </div>
+      
+          <!-- Messaggio di conferma invio -->
+          <div class="ekw_text_center ekw_result_message" style="display: none;">
+            <p>Il tuo messaggio è stato inviato con successo!<br>Ti risponderemo a breve</p>
+          </div>
+      
+          <!-- Pulsante invia -->
+            <button class="" type="button" name="ekw_form_sumbit">Invia</button>
+      
+            <!-- Messaggio animato "solo un secondo" che appare quando l'utente clicca sul pulsante invia -->
+            <div class="ekw_loading_container" style="display:none;">
+              <div class="ekw_loading_cirle">
+                <svg version="1.2"  width="65px" height="65px" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 600" xml:space="preserve">
+                  <path fill="#4a44f2" d="M300.043,94.419c113.561,0,205.623,92.061,205.623,205.624c0,60.144-25.828,114.249-66.994,151.852 l64.897,68.393c59.312-54.851,96.518-133.279,96.518-220.245C600.087,134.599,465.488,0,300.043,0 c-77.463,0-148.161,29.509-201.45,77.873l64.948,68.444C199.853,114.05,247.646,94.419,300.043,94.419z"/>
+                  <path fill="#b12cff" d="M438.672,451.896c-36.562,33.394-85.21,53.771-138.628,53.771c-113.562,0-205.624-92.062-205.624-205.623	c0-61.164,26.734-116.059,69.121-153.726L98.593,77.873C38.066,132.805,0,212.061,0,300.043 c0,165.445,134.6,300.043,300.043,300.043c78.478,0,150.003-30.299,203.526-79.799L438.672,451.896z"/>
+                  <polygon fill="#4a44f2" points="114.532,91.211 98.593,146.186 154.173,132.503 114.532,91.211 98.593,146.186 154.173,132.503 "/>
+                  <polygon fill="#b12cff" points="503.569,454.487 447.931,467.925 487.387,509.391 503.569,454.487 447.931,467.925 487.387,509.391 "/>
+                </svg>
+                <label class="ekw_loading_text">Solo un secondo</label>
+                <label class="ekw_loading_point">.</label>
+                <label class="ekw_loading_point">.</label>
+                <label class="ekw_loading_point">.</label>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+      
+</body>
+</html>
